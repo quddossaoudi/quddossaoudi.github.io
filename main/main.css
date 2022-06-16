@@ -1,0 +1,602 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Grape Nuts', Cursive; 
+    box-sizing: border-box;
+}
+.header h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 250px;
+    background-color: white;
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+    transform: translateY(100%);
+}
+.header p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: white;
+    overflow: hidden;
+
+}
+p span {
+    display: inline-block;
+    transform: translateY(100%);
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* ABOUT ME */
+
+.Second{
+    position: relative;
+}
+.Second h2{
+    margin-top: 450px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(237, 235, 235);
+    font-size: 180px;   
+    position: relative ;
+   
+}
+h2{
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-15%);
+    right: 1400px;
+}
+.Second p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 320;
+    margin-top: -160px;
+    margin-left: 400px;
+    position: relative;
+}
+
+/* 01 */
+
+.first {
+   margin-top: 400px ; 
+   padding-top: 200px; 
+}
+.first p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+    margin-left: 90px; 
+    font-size: 0.7cm; 
+   
+}
+.first p.number{
+    margin-bottom: 25px;
+    margin-left: 40px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+.first h1{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 90px;
+    margin-top: 120px;
+    font-size: 2cm;
+}
+.first p.webapp {
+    margin-top: -500px ;
+    margin-left: 20px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+    font-size: 0.53cm;
+    font-weight: 550;
+}
+.first p.website {
+    margin-bottom: 800px;
+    font-weight: lighter;
+    font-size: 0.5cm;
+    line-height: 35px;
+    
+}
+img{
+    position: absolute;
+    height: 650px;
+    margin-left: 17cm;
+    margin-top: -32cm;
+}
+img.z {
+    height: 650px;
+    margin-left: 27cm;
+    margin-top: -32cm;
+}
+
+/*02*/
+
+.two {
+    margin-top: 0.5px ; 
+    padding-top: 80px;  
+    position: relative;
+ }
+
+ .two p {
+     font-family: 'Raleway', sans-serif;
+     margin-top: 25px;
+     margin-left: 90px; 
+     font-size: 0.7cm; 
+ }
+ .two p.numbere{
+     margin-bottom: 25px;
+     margin-left: 40px;
+     position: relative;
+     font-family: 'Raleway', sans-serif;
+ }
+ .two h1{
+     font-family: 'Raleway', sans-serif;
+     margin-left: 90px;
+     margin-top: 120px;
+     font-size: 1.7cm;
+ }
+ .two p.webapp {
+     margin-top: -500px ;
+     margin-left: 20px;
+     position: absolute;
+     font-family: 'Raleway', sans-serif;
+     margin-left: 40px;
+     font-size: 0.53cm;
+     font-weight: 550;
+ }
+ .two p.fully {
+     margin-bottom: 800px;
+     font-weight: lighter;
+     font-size: 0.5cm;
+     line-height: 35px;
+     
+ }
+ img{
+     position: absolute;    
+     
+ }
+ img.row{
+    height: 60%;
+    right: 0cm;
+ }
+ img.rows {
+     position: relative;
+     margin-bottom: 16.4cm;
+     height: 430px;
+     right: -13cm;
+   
+ }
+
+
+/* 03 */
+
+
+.three {
+    margin-top: 0.5px ; 
+    padding-top: 80px; 
+ }
+ .three p {
+     font-family: 'Raleway', sans-serif;
+     margin-top: 25px;
+     margin-left: 90px; 
+     font-size: 0.7cm; 
+ }
+ .three p.number{
+     margin-bottom: 25px;
+     margin-left: 40px;
+     position: relative;
+     font-family: 'Raleway', sans-serif;
+ }
+ .three h1{
+     font-family: 'Raleway', sans-serif;
+     margin-left: 90px;
+     margin-top: 120px;
+     font-size: 2cm;
+ }
+ .three p.webapp {
+     margin-top: -500px ;
+     margin-left: 20px;
+     position: absolute;
+     font-family: 'Raleway', sans-serif;
+     margin-left: 40px;
+     font-size: 0.53cm;
+     font-weight: 550;
+ }
+ .three p.website {
+     margin-bottom: 800px;
+     font-weight: lighter;
+     font-size: 0.5cm;
+     line-height: 35px;
+      }
+.three img{
+    position: absolute;
+    left: -0.3cm;
+    bottom: -1.5cm;
+    margin-bottom: 19cm;
+    margin-right: 12px;
+    height: 500px;
+
+}     
+
+img.n{
+    position: relative;
+    top: 1.8cm;
+    left: 12cm;
+   
+}
+
+
+
+
+
+
+
+
+/* skills ------- */
+
+.skills{
+    margin-top: 0.5px ; 
+    padding-top: 80px; 
+    position: relative; 
+    
+    
+}
+.skills h3{
+    
+    font-family: 'Raleway', sans-serif;
+    color: rgb(237, 235, 235);
+    font-size: 180px;
+    margin-left: 27cm;
+   
+    
+   
+}
+h3 {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    transform: translateY(-15%);
+    right: 300px ;
+}
+
+
+.skills p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: -14cm;
+    margin-left: 7cm;
+    font-size: 35px;
+    font-weight: 300;
+}
+.skills p.ss {
+    margin-left: 20cm;
+    margin-top: -7.5cm;
+}
+
+/* contact------- */
+
+.contact {
+    margin-top: 21cm;
+    position: relative;
+}
+.contact h4{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(237, 235, 235);
+    font-size: 180px;
+    margin-left: 85cm;
+    margin-bottom: 9cm;
+}
+h4 {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    transform: translateY(-15%);
+    right: 300px ;
+
+}
+
+
+
+
+.social-icon {
+    position: relative;
+    color: black;
+    font-size: 100px ;
+    left: 30cm;
+    bottom: 10cm;
+}
+
+.github{
+    position: relative;
+    color: black;
+    font-size: 100px ;
+    left: 18cm;
+    bottom: 10cm;
+}
+.email{
+    position: relative;
+    color: black;
+    font-size: 100px ;
+    left: 6cm;
+    bottom: 10cm;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- animation------- */
+
+/* --------first  */
+.first{
+    position: relative;
+    display: flex;  
+}
+.first h1 {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+
+
+
+.first h1[data-scroll="in"]{
+    transform: scaleX(1);
+}
+
+.first h1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+
+.first h1[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
+.first p {
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scale(1);
+}
+.first p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+.first p[data-scroll="in"]{
+    transform: scaleX(1);
+}
+.first p[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+.first p.number{
+    max-width: fit-content;
+    
+
+}
+
+
+/* second -------- */
+
+.two{
+    position: relative;
+    display: flex;  
+}
+.two h1 {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+
+
+
+.two h1[data-scroll="in"]{
+    transform: scaleX(1);
+}
+
+.two h1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+
+.two h1[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
+.two p {
+    max-width: fit-content;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scale(1);
+}
+.two p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+.two p[data-scroll="in"]{
+    transform: scaleX(1);
+}
+.two p[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+.two p.numbere{
+    max-width: fit-content;
+    
+}
+
+
+
+/* third -------- */
+
+.three{
+    position: relative;
+    display: flex;  
+}
+.three h1 {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+
+
+
+.three h1[data-scroll="in"]{
+    transform: scaleX(1);
+}
+
+.three h1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+
+.three h1[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
+.three p {
+    max-width: fit-content;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scale(1);
+}
+.three p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform-origin: right ;
+    transition: 0.5s;
+}
+.three p[data-scroll="in"]{
+    transform: scaleX(1);
+}
+.three p[data-scroll="in"]::before{
+    transform: scaleX(0);
+    transition-delay: 0.2s;
+}
+
+.three p.number{
+    max-width: fit-content;
+    
+}
+
+
+/* -----------------closed --------------- */

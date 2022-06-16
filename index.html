@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quddos Saoudi</title>
+    <link rel="stylesheet" href="main/main.css" />
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <h1><span id="create">Quddos Saoudi</span></h1>
+        <p><span id="this">Front-end Developer and Software Engineer</span></p>
+      </div>
+    </section>
+
+    <section class="Second">
+      <h2>ABOUT ME</h2>
+      <p>
+        Software Engineer who aims for client satisfaction.<br />
+        Front-end Developer who cares deeply about user experience.
+      </p>
+    </section>
+
+    <section class="first">
+        <div class="firsst">
+      <p class="number">01</p>
+      <h1>ZEUS</h1>
+      <p class="full">Full Stack Website Developer</p>
+      <p class="website">
+        Website project for a Gaming products company, specialised <br />
+        in providing gamers with the best tools and kits.
+      </p>
+      <p class="webapp">WEB APP</p>
+      <img
+        src="images/Screen Shot 2022-05-19 at 1.26.33 PM_iphone13midnight_portrait.png"
+      />
+      <img class="z" src="images/This.png" />
+    </section>
+</div>
+
+    <section class="two">
+        <div class="twwo">
+      <p class="numbere">02</p>
+      <h1>ROMEO</h1>
+      <p class="front">Front-end Developer</p>
+      <p class="fully">
+        Fully responsive website developed using HTML, CSS and JavaScript.
+      </p>
+      <p class="webapp">WEB APP</p>
+      <img class="row" src="images/Roomeo.png" />
+      <img class="rows" src="images/Romeo3.png" />
+    </section>
+
+    <section class="three">
+      <div class="third">
+    <p class="number">03</p>
+    <h1>XYPO</h1>
+    <p class="full">Software Developer</p>
+    <p class="website">
+      Website development for an online school, specialised <br />
+      in teaching students from all around the world.
+    </p>
+    <p class="webapp">WEB APP</p>
+    <img
+      src="images/Xyp2.png"
+    />
+    <img class="n" src="images/Xypo.png" />
+  </section>
+ </div>
+
+
+  <section class="skills">
+    <h3>SKILLS</h3>
+    <p>HTML <br>CSS <br>JavaScript <br><br>React <br>React Native <br>Node.js</p>
+    <p class="ss">Rapid Prototyping<br>Testing & Debugging<br>Functional Programming <br><br>Python <br>Interaction Development<br>Responsive Coding</p>
+  </section>
+
+
+
+  <section class="contact">
+    <h4>CONTACT</h4>
+    </section>
+
+<script src="/scroll-out.js"></script>
+<script type="text/javascript">
+  ScrollOut({
+    targets: 'h1,p'
+  })
+</script>
+
+<a class = "social-icon" href="https://www.linkedin.com/in/quddossaoudi/" target="_blank">
+  <ion-icon name="logo-linkedin"></ion-icon></a>
+
+
+<a class = "github" href="https://github.com/Saoudi7" target="_blank">
+<ion-icon name="logo-github"></ion-icon></a><a class="email" href=":sohaybsaoudi2@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon>
+</a>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script>
+          let tl = gsap.timeline({defaults: {ease: "SlowMo.easeOut"}});
+
+          tl.to("#create", {y:'0%', duration:0.7, stagger:0.2});
+          tl.to("#this", {y:'0%', duration:0.7, stagger:0.2});
+        </script>
+
+
+          <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+          <script type="text/javascript">
+            $(document).on('scroll', function(){
+              $('h2').css("right", Math.max(400 - 0.35*window.scrollY, 0) + "px");
+
+
+            }) 
+
+            $(document).on('scroll' , function() {
+              $('h3').css("right", Math.max(-100 + 0.2*window.scrollY, 0) + "px");});
+              tl.to("h3", {y:'0%', duration:0.1, stagger:0.1});
+
+
+              $(document).on('scroll' , function() {
+              $('h4').css("right", Math.max(500 + 0.4*window.scrollY, 0) + "px");});
+
+              
+          </script>
+
+
+          </script>
+        
+        
+  </body>
+</html>
